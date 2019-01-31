@@ -1,6 +1,8 @@
 # Responsiveness Basic Porfolio
 # Welcome
-This is a project where Bootstrap library is used to create a basic Bootstrap-Portfolio.
+In this project we're going to be building a responsive basic portfolio with a stylesheet.
+Using the ` @media screen ` tags with the `max-width s: 980px, 768px and 640px.`
+
 ## Overview
 Portfolio has three pages in Navbar that are links that will direct you to a separate page:
 * About
