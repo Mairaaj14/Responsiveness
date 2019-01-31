@@ -1,17 +1,18 @@
-# Responsiveness Basic Porfolio
+# Responsiveness Basic Porfolio ✌🏽
 # Welcome
 In this project we're going to be building a responsive basic portfolio with a stylesheet.
 Using the ` @media screen ` tags with the `max-width s: 980px, 768px and 640px.`
 
 ## Overview
-Portfolio has three pages in Navbar that are links that will direct you to a separate page:
-* About
-* Portfolio
-* Contact
+We use media tags because we dont want any of our content to get cut out when you make your window smaller.
+My portfolio is composed of three link pages in my Navbar:
+* [About]() - Main index page/ landing page
+* [Portfolio]() - Portfolio Page
+* [Contact]() - Contact Page
 
-Below is a following example of what my basic portfolio looks like using the Bootstrap library!
+Below is a following example of what my basic portfolio looks like with the different `@media screen tags` :
 
-![alt text](assets/images/Bootstrap.gif)
+![alt text](assets/images/responsive.gif)
 
 ### Getting Started
 You will need to visit Bootstrap page in order to read over the documentation and add the link and scripts to your HTML header.
