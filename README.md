@@ -10,7 +10,9 @@ My portfolio is composed of three link pages in my Navbar:
 * [Portfolio]() - Portfolio Page
 * [Contact]() - Contact Page
 
-Below is a following example of what my basic portfolio looks like with the different `@media screen tags` :
+
+Below is a following example of what my basic portfolio looks like with the different `@media screen tags` 
+As you can see none of my content gets cut off even if I make the window smaller.
 
 ![alt text](assets/images/responsive.gif)
 
