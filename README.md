@@ -97,3 +97,9 @@ Here is a code snippet of how my media screen tags and my styling looks like:
 
 * **Maira Jimenez** - *Initial work* - [Mairaaj14](https://github.com/Mairaaj14)
 
+
+## Acknowledgments
+
+* Jerome Chenette
+* Sasha Patsel
+* Jimmy Tu
