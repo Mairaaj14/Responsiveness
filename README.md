@@ -1,6 +1,6 @@
 # Responsiveness Basic Porfolio ✌🏽
 # Welcome
-In this project we're going to be building a responsive basic portfolio with a stylesheet.
+In this project we're going to be building a responsive basic portfolio that will be styled using our own `style.css.`
 Using the ` @media screen ` tags with the `max-width s: 980px, 768px and 640px.`
 
 ## Overview
@@ -17,26 +17,79 @@ As you can see none of my content gets cut off even if I make the window smaller
 ![alt text](assets/images/responsive.gif)
 
 ### Getting Started
-You will need to visit Bootstrap page in order to read over the documentation and add the link and scripts to your HTML header.
+You will need to create your HTML files, and in a separate folder create an `assets` folder where you will have two folders
+`css and images` in your css folder that's where you want your CSS stylesheet `style.css`.
+Your css file will be in charge of the front-end, you control and decide the styling of every part of your portfolio.
+To make our portfolio responsive, the @media screen tags must be added in your CSS file.
 
-Here is a code snippet of how your header is supposed to look like:
+Here is a code snippet of how my media screen tags and my styling looks like:
 
 ``` 
-<head>
-  <meta charset="UTF-8">
-  <title>Portfolio | Maira Jimenez</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
-</head>
+ @media screen and (max-width: 980px) {
+    .container {
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+      clear: both;
+    }
+    #masthead {
+      position: fixed;
+      z-index: 99;
+      width: 100%;
+      max-width: 960px;
+      margin: 0 0 30px;
+      overflow: auto;
+      color: #ffffff;
+      background: #ffffff;
+      border-bottom: 2px solid #cccccc;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+      max-width: 768px;
+      margin: 0 auto;
+      clear: both;
+    }
+    #masthead {
+      position: fixed;
+      z-index: 99;
+      width: 100%;
+      max-width: 768px;
+      margin: 0 0 30px;
+      overflow: auto;
+      color: #ffffff;
+      background: #ffffff;
+      border-bottom: 2px solid #cccccc;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .container {
+      width: 100%;
+      max-width: 640px;
+      margin: 0 auto;
+      clear: both;
+    }
+    #masthead {
+      position: static;
+      z-index: 99;
+      width: 100%;
+      max-width: 640px;
+      margin: 0 0 30px;
+      overflow: auto;
+      color: #ffffff;
+      background: #ffffff;
+      border-bottom: 2px solid #cccccc;
+    }
+  }
 
 ```
 
 ### Built With
 * HTML
 * CSS
-* Bootstrap
 * [VSC](https) - Visual Studio Code, Editor
 * [Github Pages](https) - Deployment
 
