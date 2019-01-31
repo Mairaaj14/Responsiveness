@@ -1,5 +1,4 @@
-# Responsiveness
-# Basic Bootstrap Portfolio
+# Responsiveness Basic Porfolio
 # Welcome
 This is a project where Bootstrap library is used to create a basic Bootstrap-Portfolio.
 ## Overview
